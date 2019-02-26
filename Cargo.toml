@@ -1,0 +1,10 @@
+[package]
+name = "spacerc"
+version = "0.1.0"
+authors = ["Boris Kraportov <b.kraportov@jetmail.cc>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
+toml = "0.4.10"
+serde = { version = "1.0", features = ["derive"] }
